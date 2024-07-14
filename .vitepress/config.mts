@@ -35,6 +35,10 @@ export default defineConfig({
           { text: 'React', link: '/docs/react' },
           { text: 'Puppeteer', link: '/docs/puppeteer/01-快速上手.md' },
           { text: 'Extension.js', link: '/docs/extension-js' },
+          { text: 'LogicFlow', link: '/docs/logic-flow/01LogicFlow安装与准备工作.md' },
+          { text: 'Pinia', link: '/docs/pinia/01教程前言.md' },
+          { text: 'Tsup', link: '/docs/tsup/01构建工具tsup入门第一部分' },
+          { text: 'Vuejs-Decorator', link: '/docs/vuejs-decorator/01教程前言.md' },
         ]
       },
       { text: '✨ Use', link: '/use.md' },
@@ -54,6 +58,31 @@ export default defineConfig({
         documentRootPath: '/docs',
         scanStartPath: 'puppeteer',
         resolvePath: '/docs/puppeteer/',
+      },
+      {
+        documentRootPath: '/docs',
+        scanStartPath: 'extension-js',
+        resolvePath: '/docs/extension-js/',
+      },
+      {
+        documentRootPath: '/docs',
+        scanStartPath: 'logic-flow',
+        resolvePath: '/docs/logic-flow/',
+      },
+      {
+        documentRootPath: '/docs',
+        scanStartPath: 'pinia',
+        resolvePath: '/docs/pinia/',
+      },
+      {
+        documentRootPath: '/docs',
+        scanStartPath: 'tsup',
+        resolvePath: '/docs/tsup/',
+      },
+      {
+        documentRootPath: '/docs',
+        scanStartPath: 'vuejs-decorator',
+        resolvePath: '/docs/vuejs-decorator/',
       },
     ]),
     footer: {
