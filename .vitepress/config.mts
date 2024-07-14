@@ -3,7 +3,6 @@ import { generateSidebar } from 'vitepress-sidebar'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: '/website',
   title: "I'm OSpoon",
   description: "👋 Hi, Nice to meet you",
   themeConfig: {
