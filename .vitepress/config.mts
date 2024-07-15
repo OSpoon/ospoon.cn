@@ -41,6 +41,7 @@ export default defineConfig({
           { text: 'Vuejs-Decorator', link: '/docs/vuejs-decorator/01教程前言.md' },
         ]
       },
+      { text: '🔥 Articles', link: '/articles.md' },
       { text: '✨ Use', link: '/use.md' },
     ],
     sidebar: generateSidebar([
