@@ -39,6 +39,7 @@ export default defineConfig({
           { text: 'Pinia', link: '/docs/pinia/01教程前言.md' },
           { text: 'Tsup', link: '/docs/tsup/01构建工具tsup入门第一部分' },
           { text: 'Vuejs-Decorator', link: '/docs/vuejs-decorator/01教程前言.md' },
+          { text: '前端工程体验优化', link: '/docs/前端工程体验优化/数据收集与可视化.md' }
         ]
       },
       { text: '🔥 Articles', link: '/articles.md' },
