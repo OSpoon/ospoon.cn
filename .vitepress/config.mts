@@ -86,6 +86,11 @@ export default defineConfig({
         scanStartPath: 'vuejs-decorator',
         resolvePath: '/docs/vuejs-decorator/',
       },
+      {
+        documentRootPath: '/docs',
+        scanStartPath: '前端工程体验优化',
+        resolvePath: '/docs/前端工程体验优化/',
+      },
     ]),
     footer: {
       copyright:
