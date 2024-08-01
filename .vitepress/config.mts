@@ -1,8 +1,8 @@
-import { defineConfig } from 'vitepress'
 import { generateSidebar } from 'vitepress-sidebar'
+import { withMermaid } from "vitepress-plugin-mermaid";
 
 // https://vitepress.dev/reference/site-config
-export default defineConfig({
+export default withMermaid({
   title: "I'm OSpoon",
   description: "👋 Hi, Nice to meet you",
   themeConfig: {
@@ -32,7 +32,7 @@ export default defineConfig({
         text: '📚 Documents',
         items: [
           { text: 'Vuejs', link: '/docs/vuejs' },
-          { text: 'React', link: '/docs/react' },
+          { text: 'React', link: '/docs/react/01-快速入门.md' },
           { text: 'Puppeteer', link: '/docs/puppeteer/01-快速上手.md' },
           { text: 'Extension.js', link: '/docs/extension-js' },
           { text: 'LogicFlow', link: '/docs/logic-flow/01LogicFlow安装与准备工作.md' },
@@ -99,5 +99,8 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/ospoon' }
     ]
-  }
+  },
+  mermaid: {
+
+  },
 })
