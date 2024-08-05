@@ -9,7 +9,7 @@
 1. 如何使用 Extension.js 即插即用、无需配置、跨浏览器的扩展开发工具；
 2. VueUse 组合式工具集开箱即用的工具函数；
 3. ShadowDOM 实现样式隔离；
-4. 利用 RxJS 特性完成功能的合并封住；
+4. 利用 RxJS 特性完成功能的合并封装；
 5. Github Actions 持续交付；
 6. 自定义语义化版本； 
 7. 完整代码提议访问 https://github.com/OSpoon/key-prompt 获取；
