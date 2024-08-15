@@ -3,19 +3,25 @@
 
 ## 安装篇
 
-| 下载 | 目的 |
+### 必备
+| 软件 | 作用 |
 | --- | --- |
-| [Chrome](https://www.google.cn/intl/zh-CN/chrome/) | 安装访问网络插件 |
-| [Ghelper](https://ghelper.net) | 安装插件后同步 Google 账号、下载上网客户端 |
+| [Chrome](https://www.google.cn/intl/zh-CN/chrome/) | 同步 Google 账号 |
+| [Ghelper](https://ghelper.net) | 辅助上网（插件、客户端） |
+| [VS Code](https://code.visualstudio.com/) | 同步 VSC 配置、代码编辑器 |
+| [Github Desktop](https://github.com/apps/desktop) | 管理代码仓库、附带 Git 环境 |
 | [Command Line Tools](https://developer.apple.com/download/all/) | 安装 NVM 时需要依赖 |
-| [VS Code](https://code.visualstudio.com/) | 文本编辑器、代码编辑器 |
-| [Github Desktop](https://github.com/apps/desktop) | 配置 Git 环境，管理代码仓库 |
+
+### 辅助工具
+
+| 软件 | 作用 |
+| --- | --- |
 | [Rectangle](https://rectangleapp.com/) | 屏幕窗口管理器 |
 | [iFan](https://www.better365.cn/h-col-195.html) | Mac 风扇管理器 |
 
 ### 安装 [Node.js](https://nodejs.org/)
 
-> 需要配置系统代理、安装 Command Line Tools
+> 需要配置系统代理、安装 **Command Line Tools**
 
 ```bash
 # 安装 nvm ( Node 版本管理器)
@@ -31,19 +37,15 @@ npm -v # should print `10.8.1`
 
 ### 安装 [Oh My Zsh](https://ohmyz.sh)
 
-> 需要配置系统代理、安装 Git 环境
+> 需要配置系统代理、安装 **Git** 环境
 
 ```bash
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
-## 配置篇
-### 环境变量配置
+PS：安装后需要重新配置 **重启终端生效** 部分。
 
-| 目的 | 操作 |
-| --- | --- |
-| 显示隐藏文件 | `command + shift + .` |
-| 配置文件生效 | `source ~/.bash_profile` |
+## 配置篇
 
 ### 配置系统代理
 
@@ -71,18 +73,24 @@ source ~/.bash_profile
 设置代理
 ```bash
 npm config set proxy http://127.0.0.1:7890
+```
+```bash
 npm config set https-proxy http://127.0.0.1:7890
 ```
 
 查看代理
 ```bash
 npm config get proxy
+```
+```bash
 npm config get https-proxy
 ```
 
 删除代理
 ```bash
 npm config delete proxy
+```
+```bash
 npm config delete https-proxy
 ```
 
@@ -91,17 +99,30 @@ npm config delete https-proxy
 设置代理
 ```bash
 git config --global http.proxy http://127.0.0.1:7890
+```
+```bash
 git config --global https.proxy http://127.0.0.1:7890
 ```
 
 查看代理
 ```bash
 git config --global --get http.proxy
+```
+```bash
 git config --global --get https.proxy
 ```
 
 删除代理
 ```bash
 git config --global --unset http.proxy
+```
+```bash
 git config --global --unset https.proxy
 ```
+
+## 快捷键
+
+| 级别 | 作用 | 快捷键 |
+| --- | --- | --- |
+| 系统 | 显示/隐藏文件 | `command + shift + .` |
+| VS Code | 打开命令窗口 | `command + shift + p` |
