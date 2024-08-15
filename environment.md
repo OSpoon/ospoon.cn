@@ -18,6 +18,7 @@
 | --- | --- |
 | [Rectangle](https://rectangleapp.com/) | 屏幕窗口管理器 |
 | [iFan](https://www.better365.cn/h-col-195.html) | Mac 风扇管理器 |
+| [iShot](https://www.better365.cn/ishot.html) | 截屏工具 |
 
 ### 安装 [Node.js](https://nodejs.org/)
 
@@ -67,6 +68,20 @@ source ~/.bash_profile
 1. 启动 VS Code 命令窗口：`command + shift + p`
 2. 输入 `shell command`
 3. 选择 Install `code` command in PATH
+
+### NPM 全局模块
+
+* @antfu/ni：Adaptive packet manager
+* nrm：Node.js NPM registry manager
+* cross-env：Set environment variables
+* command-line-toolbox：Command line toolbox
+* degit：Copy git repository
+* pnpm：Fast, disk space efficient package manager
+* yarn：Fast, reliable, and secure dependency management.
+
+```bash
+npm i -g @antfu/ni nrm cross-env command-line-toolbox degit pnpm yarn
+```
 
 ### NPM 代理管理:
 
