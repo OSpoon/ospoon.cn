@@ -17,8 +17,9 @@
 | 软件 | 作用 |
 | --- | --- |
 | [Rectangle](https://rectangleapp.com/) | 屏幕窗口管理器 |
+| [SnipPaste](https://www.snipaste.com/) | 截图工具 |
 | [iFan](https://www.better365.cn/h-col-195.html) | Mac 风扇管理器 |
-| [iShot](https://www.better365.cn/ishot.html) | 截屏工具 |
+| [FastZip](https://www.better365.cn/fastzip.html) | 解压工具 |
 
 ### 安装 [Node.js](https://nodejs.org/)
 
