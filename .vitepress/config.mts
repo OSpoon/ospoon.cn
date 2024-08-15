@@ -45,6 +45,7 @@ export default withMermaid({
       { text: '🔥 Articles', link: '/articles.md' },
       { text: '✨ Use', link: '/use.md' },
       { text: '🎉 DevEnv', link: '/environment.md' },
+      { text: '❤️ Notion', link: 'https://www.notion.so/ospoon' }
     ],
     sidebar: generateSidebar([
       {
