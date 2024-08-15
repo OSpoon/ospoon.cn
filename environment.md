@@ -21,6 +21,14 @@
 | [iFan](https://www.better365.cn/h-col-195.html) | Mac 风扇管理器 |
 | [FastZip](https://www.better365.cn/fastzip.html) | 解压工具 |
 
+### 文档编辑
+
+| 软件 | 作用 |
+| --- | --- |
+| [Typora](https://typora.io/) | Markdown 编辑器 |
+| [uPic](https://github.com/gee1k/uPic) | 图片上传工具 |
+
+
 ### 安装 [Node.js](https://nodejs.org/)
 
 > 需要配置系统代理、安装 **Command Line Tools**
