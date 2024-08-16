@@ -27,6 +27,8 @@ Inspect installed package：`npm list -g --depth 0`
 |[cross-env](https://www.npmjs.com/package/cross-env)|Set environment variables|
 |[generator-babel-plugin-x](https://www.npmjs.com/package/generator-babel-plugin-x)|Babel Plugin generator for Yeoman|
 |[command-line-toolbox](https://www.npmjs.com/package/command-line-toolbox)|Command line toolbox|
+|[yo](https://www.npmjs.com/package/yo)|CLI tool for running Yeoman generators|
+|[generator-code](https://www.npmjs.com/package/generator-code)|Yeoman generator for Visual Studio Code extensions.|
 
 ## Desktop Client
 
