@@ -39,15 +39,20 @@ export default withMermaid({
           { text: 'Pinia', link: '/docs/pinia/01教程前言.md' },
           { text: 'Tsup', link: '/docs/tsup/01构建工具tsup入门第一部分' },
           { text: 'Vuejs-Decorator', link: '/docs/vuejs-decorator/01教程前言.md' },
-          { text: '前端工程体验优化', link: '/docs/前端工程体验优化/数据收集与可视化.md' }
+          { text: '前端工程体验优化', link: '/docs/前端工程体验优化/01-数据收集与可视化.md' }
         ]
       },
       { text: '🔥 Articles', link: '/articles.md' },
+      { text: '🚀 Blog', link: '/blog/Chrome扩展开发之按键提示.md' },
       { text: '✨ Use', link: '/use.md' },
       { text: '🎉 DevEnv', link: '/environment.md' },
-      { text: '❤️ Notion', link: 'https://www.notion.so/ospoon' }
     ],
     sidebar: generateSidebar([
+      {
+        documentRootPath: '/',
+        scanStartPath: 'blog',
+        resolvePath: '/blog/',
+      },
       {
         documentRootPath: '/docs',
         scanStartPath: 'vuejs',
