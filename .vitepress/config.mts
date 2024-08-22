@@ -38,6 +38,9 @@ export default withMermaid({
           { text: 'LogicFlow', link: '/docs/logic-flow/01LogicFlow安装与准备工作.md' },
           { text: 'Pinia', link: '/docs/pinia/01教程前言.md' },
           { text: 'Tsup', link: '/docs/tsup/01构建工具tsup入门第一部分' },
+          { text: 'Gulp', link: '/docs/gulp/01-构建工具Gulp.md' },
+          { text: 'NestJs', link: '/docs/NestJs/01-NestJs模块化组织App结构.md' },
+          { text: 'webrtc', link: '/docs/webrtc/WebRTC之媒体流与轨道.md' },
           { text: 'Vuejs-Decorator', link: '/docs/vuejs-decorator/01教程前言.md' },
           { text: '前端工程体验优化', link: '/docs/前端工程体验优化/01-数据收集与可视化.md' }
         ]
@@ -87,6 +90,19 @@ export default withMermaid({
         documentRootPath: '/docs',
         scanStartPath: 'tsup',
         resolvePath: '/docs/tsup/',
+      },
+      {
+        documentRootPath: '/docs',
+        scanStartPath: 'gulp',
+        resolvePath: '/docs/gulp/',
+      }, {
+        documentRootPath: '/docs',
+        scanStartPath: 'NestJs',
+        resolvePath: '/docs/NestJs/',
+      }, {
+        documentRootPath: '/docs',
+        scanStartPath: 'webrtc',
+        resolvePath: '/docs/webrtc/',
       },
       {
         documentRootPath: '/docs',
