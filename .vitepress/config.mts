@@ -39,23 +39,18 @@ export default withMermaid({
           { text: 'Pinia', link: '/docs/pinia/01教程前言.md' },
           { text: 'Tsup', link: '/docs/tsup/01构建工具tsup入门第一部分' },
           { text: 'Gulp', link: '/docs/gulp/01-构建工具Gulp.md' },
-          { text: 'NestJs', link: '/docs/NestJs/01-NestJs模块化组织App结构.md' },
+          { text: 'NestJs', link: '/docs/nest-js/01-NestJs模块化组织App结构.md' },
           { text: 'webrtc', link: '/docs/webrtc/WebRTC之媒体流与轨道.md' },
           { text: 'Vuejs-Decorator', link: '/docs/vuejs-decorator/01教程前言.md' },
+          { text: 'Strapi', link: '/docs/strapi/01-Strapi快速开始指南.md' },
           { text: '前端工程体验优化', link: '/docs/前端工程体验优化/01-数据收集与可视化.md' }
         ]
       },
       { text: '🔥 Articles', link: '/articles.md' },
-      { text: '🚀 Blog', link: '/blog/Chrome扩展开发之按键提示.md' },
       { text: '✨ Use', link: '/use.md' },
       { text: '🎉 DevEnv', link: '/environment.md' },
     ],
     sidebar: generateSidebar([
-      {
-        documentRootPath: '/',
-        scanStartPath: 'blog',
-        resolvePath: '/blog/',
-      },
       {
         documentRootPath: '/docs',
         scanStartPath: 'vuejs',
@@ -97,8 +92,8 @@ export default withMermaid({
         resolvePath: '/docs/gulp/',
       }, {
         documentRootPath: '/docs',
-        scanStartPath: 'NestJs',
-        resolvePath: '/docs/NestJs/',
+        scanStartPath: 'nest-js',
+        resolvePath: '/docs/nest-js/',
       }, {
         documentRootPath: '/docs',
         scanStartPath: 'webrtc',
@@ -108,6 +103,11 @@ export default withMermaid({
         documentRootPath: '/docs',
         scanStartPath: 'vuejs-decorator',
         resolvePath: '/docs/vuejs-decorator/',
+      },
+      {
+        documentRootPath: '/docs',
+        scanStartPath: 'strapi',
+        resolvePath: '/docs/strapi/',
       },
       {
         documentRootPath: '/docs',
