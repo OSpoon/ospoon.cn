@@ -34,6 +34,30 @@ features:
     details: 适用于VSCode IDE的代码变量名称快速转换工具
     link: https://github.com/OSpoon/var-conv
     linkText: 变量名称快速转换
+  - icon: 
+      src: /electronjs.svg
+    title: reflect-ipc-channels
+    details: Electron 进程通信（IPC）装饰器应用方案.
+    link: https://github.com/OSpoon/reflect-ipc-channels
+    linkText: Electron 进程通信
+  - icon: 
+      src: /logo.png
+    title: command-line-toolbox
+    details: 支持新建项目、删除文件夹、释放端口、生成 .gitignore、打印目录树、打开远程仓库、生成开发证书
+    link: https://github.com/OSpoon/command-line-toolbox
+    linkText: 命令行工具箱
+  - icon: 
+      src: /vscode.png
+    title: var-conv-next
+    details: 支持基于 SiliconCloud 云端模型对变量风格转换
+    link: https://github.com/OSpoon/var-conv-next
+    linkText: 变量名称快速转换 Next
+  - icon: 
+      src: /key-prompt.png
+    title: key-prompt
+    details: An extension that displays the keys being operated.
+    link: https://github.com/OSpoon/key-prompt
+    linkText: 按键提示
 ---
 
 > [!TIP] 关于我
