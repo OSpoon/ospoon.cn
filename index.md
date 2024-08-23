@@ -60,10 +60,14 @@ features:
     linkText: 按键提示
 ---
 
-> [!TIP] 关于我
-在北京工作的一位前端开发工程师。擅长使用 Vue、 Angular、 Typescript 和 Node 构建 Web 应用程序和网站。同时也是一位乐于分享的程序员，我经常利用休息时间写写技术文章、分享自己经验及学习心得。
+> [!WARNING] 关于我
+> 您好，我是 **张鑫**，在北京先后从事 **Android** 开发工作 **2年** 和 **前端开发** 工作 **7年**。
 
-> [!WARNING] 时间线
-> * 2015 ~ 2017: 从事 Android 开发工作,为保险公司提供移动展业应用,帮助保险公司业务员提升业务效率;
-> * 2017 ~ 2021: 从事 Vue.js & Hybrid App 开发工作, 期间 H5 体积优化达 90%, Hybrid App 框架自主定制;
-> * 2021 ~ 现在: 近些年主要利用 MicroApp 微前端框架维护和迭代公司的项目，保证历史的 Angular 工程逐步向 Vuejs 的平稳迁移。
+> [!WARNING] 在公司：
+近三年主要负责 **B** 端产品的升级与维护，运用微前端（**MicroApp**）框架，以 **Angular8.x** 与 **Vuejs3.x** 为主要技术栈构建，并逐步实现技术栈迁移至 **Vuejs** 。在项目统一管理和维护上提供了插件化的 CLI 工具包 [FE-CodeGenius](https://github.com/FE-CodeGenius)，在团队协作方面通过 PM2 部署 Node.js 服务将 **工蜂系统** 与 **企微** 消息打通，实现 **PR** 和 **CodeReview** 实时通知。
+
+> [!WARNING] 在开源社区
+在 Github 以 ID [OSpoon](https://github.com/OSpoon) 为滴滴出行开源的 [LogicFlow](https://github.com/didi/LogicFlow) 项目贡献 [Vue + TS](https://1024code.com/collections/MO6KPPq) 版在线开发教程，为 **3.6KStar** 的跨浏览器扩展开发 [extension.js](https://github.com/extension-js/extension.js) 项目贡献代码和做 **CodeReview**，同时我开发的 [var-conv](https://marketplace.visualstudio.com/items?itemName=xiaoxintongxue.var-conv) 变量命名风格转换插件在 VSCode 插件市场拥有 **2.6K** 的下载量。
+
+> [!WARNING] 在技术社区
+在 **掘金社区**以 ID [小鑫同学](https://juejin.cn/user/3966693685871694) 发布了 **230** 余篇技术文章，包含了框架学习、插件开发、项目构建、方案制定等内容，其中[《**项目越写越大，我是这样做拆分的**》](https://juejin.cn/post/7120540990863048717)阅读量 **48K+** 为解决大项目拆分维护困难的伙伴提供了处理思路，且目前所有文章累计阅读量达 **347K+ ，我坚信所有付出都将是沉淀，所有美好终会如期而至。**
